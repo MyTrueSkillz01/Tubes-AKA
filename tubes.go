@@ -83,7 +83,7 @@ func main() {
 
 	http.HandleFunc("/api/manual", handleManualInput)
 
-	fmt.Println("🚀 Aplikasi Siap! Buka: http://localhost:8080")
+	fmt.Println("Buka: http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
 
